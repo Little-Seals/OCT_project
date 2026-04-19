@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\A_code\oct\OCT\cufinufft\contrib\common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\cufinufft\contrib\dirft2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\cufinufft\contrib\ker_horner_allw_loop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\cufinufft\contrib\ker_lowupsampfac_horner_allw_loop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\cufinufft\contrib\legendre_rule_fast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\cufinufft\contrib\spreadinterp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\cufinufft\contrib\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\cufinufft\contrib\utils_fp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\OCT\x64\Debug\qt\moc\moc_OCTGUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\OCT\x64\Debug\qt\rcc\qrc_OCTGUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\x64\Debug\qt\moc\moc_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\x64\Debug\qt\moc\moc_model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\x64\Debug\qt\moc\moc_OCTGUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\x64\Debug\qt\rcc\qrc_OCTGUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\x64\Release\qt\moc\moc_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\x64\Release\qt\moc\moc_model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\x64\Release\qt\moc\moc_OCTGUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\x64\Release\qt\rcc\qrc_OCTGUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\DataProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\main2t.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\OCTGUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\save_function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\contrib\cuda_samples\helper_cuda.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\contrib\cuda_samples\helper_string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\contrib\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\contrib\dataTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\contrib\dirft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\contrib\legendre_rule_fast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\contrib\spreadinterp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\contrib\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\contrib\utils_fp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\include\cufinufft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\include\cufinufft_eitherprec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\include\cufinufft_errors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\include\cufinufft_opts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\include\profile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\include\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\source\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\source\cudeconvolve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\source\cuspreadinterp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\source\memtransfer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\source\precision_independent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\OCT\x64\Debug\qt\uic\ui_OCTGUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\x64\Debug\qt\uic\ui_OCTGUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\x64\Release\qt\uic\ui_OCTGUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\OCTGUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\A_code\oct\OCT\save_function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\A_code\oct\OCT\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\1d\cufinufft1d.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\1d\interp1d_wrapper.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\1d\spread1d_wrapper.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\1d\spreadinterp1d.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\2d\cufinufft2d.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\2d\interp2d_wrapper.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\2d\spread2d_wrapper.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\2d\spread2d_wrapper_paul.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\2d\spreadinterp2d.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\3d\cufinufft3d.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\3d\interp3d_wrapper.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\3d\spread3d_wrapper.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\3d\spreadinterp3d.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\common.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\cufinufft.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\deconvolve_wrapper.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\memtransfer_wrapper.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\precision_independent.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\profile.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cuhelper.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cuhelper.cuh" />
+    <None Include="F:\A_code\oct\OCT\cukernel.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cukernel.cuh" />
+    <None Include="F:\A_code\oct\OCT\cukernel_MB2D.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cukernel_OCTA.cuh" />
+    <None Include="F:\A_code\oct\OCT\cvshow.cu">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="F:\A_code\oct\OCT\cvshow.cuh" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{125BFF95-4E03-34D3-8903-36B18C9F1CFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A0E49AAF-E3E2-3F11-8900-19055273683F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

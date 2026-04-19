@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DC1A6338-F397-344E-96C0-829286D43597}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>OCT</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\A_code\oct\OCT\cmake-build-debug-visual-studio\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OCT.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OCT</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\A_code\oct\OCT\cmake-build-debug-visual-studio\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OCT.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OCT</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\A_code\oct\OCT\cmake-build-debug-visual-studio\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OCT.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OCT</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\A_code\oct\OCT\cmake-build-debug-visual-studio\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OCT.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OCT</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\A_code\oct\OCT\.;F:\A_code\oct\OCT\cufinufft\contrib;F:\A_code\oct\OCT\cufinufft\contrib\cuda_samples;F:\A_code\oct\OCT\cufinufft\include;F:\A_code\oct\OCT\cufinufft\source;F:\A_code\oct\OCT\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Release\qt\uic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\A_code\oct\OCT\.;F:\A_code\oct\OCT\cufinufft\contrib;F:\A_code\oct\OCT\cufinufft\contrib\cuda_samples;F:\A_code\oct\OCT\cufinufft\include;F:\A_code\oct\OCT\cufinufft\source;F:\A_code\oct\OCT\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Release\qt\uic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\A_code\oct\OCT\.;F:\A_code\oct\OCT\cufinufft\contrib;F:\A_code\oct\OCT\cufinufft\contrib\cuda_samples;F:\A_code\oct\OCT\cufinufft\include;F:\A_code\oct\OCT\cufinufft\source;F:\A_code\oct\OCT\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Release\qt\uic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/A_code/oct/OCT/cmake-build-debug-visual-studio/Debug/OCT.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/A_code/oct/OCT/cmake-build-debug-visual-studio/Debug/OCT.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\A_code\oct\OCT\.;F:\A_code\oct\OCT\cufinufft\contrib;F:\A_code\oct\OCT\cufinufft\contrib\cuda_samples;F:\A_code\oct\OCT\cufinufft\include;F:\A_code\oct\OCT\cufinufft\source;F:\A_code\oct\OCT\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Release\qt\uic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\A_code\oct\OCT\.;F:\A_code\oct\OCT\cufinufft\contrib;F:\A_code\oct\OCT\cufinufft\contrib\cuda_samples;F:\A_code\oct\OCT\cufinufft\include;F:\A_code\oct\OCT\cufinufft\source;F:\A_code\oct\OCT\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Release\qt\uic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\A_code\oct\OCT\.;F:\A_code\oct\OCT\cufinufft\contrib;F:\A_code\oct\OCT\cufinufft\contrib\cuda_samples;F:\A_code\oct\OCT\cufinufft\include;F:\A_code\oct\OCT\cufinufft\source;F:\A_code\oct\OCT\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Release\qt\uic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/A_code/oct/OCT/cmake-build-debug-visual-studio/Release/OCT.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/A_code/oct/OCT/cmake-build-debug-visual-studio/Release/OCT.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\A_code\oct\OCT\.;F:\A_code\oct\OCT\cufinufft\contrib;F:\A_code\oct\OCT\cufinufft\contrib\cuda_samples;F:\A_code\oct\OCT\cufinufft\include;F:\A_code\oct\OCT\cufinufft\source;F:\A_code\oct\OCT\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Release\qt\uic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\A_code\oct\OCT\.;F:\A_code\oct\OCT\cufinufft\contrib;F:\A_code\oct\OCT\cufinufft\contrib\cuda_samples;F:\A_code\oct\OCT\cufinufft\include;F:\A_code\oct\OCT\cufinufft\source;F:\A_code\oct\OCT\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Release\qt\uic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\A_code\oct\OCT\.;F:\A_code\oct\OCT\cufinufft\contrib;F:\A_code\oct\OCT\cufinufft\contrib\cuda_samples;F:\A_code\oct\OCT\cufinufft\include;F:\A_code\oct\OCT\cufinufft\source;F:\A_code\oct\OCT\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Release\qt\uic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/A_code/oct/OCT/cmake-build-debug-visual-studio/MinSizeRel/OCT.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/A_code/oct/OCT/cmake-build-debug-visual-studio/MinSizeRel/OCT.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\A_code\oct\OCT\.;F:\A_code\oct\OCT\cufinufft\contrib;F:\A_code\oct\OCT\cufinufft\contrib\cuda_samples;F:\A_code\oct\OCT\cufinufft\include;F:\A_code\oct\OCT\cufinufft\source;F:\A_code\oct\OCT\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Release\qt\uic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\A_code\oct\OCT\.;F:\A_code\oct\OCT\cufinufft\contrib;F:\A_code\oct\OCT\cufinufft\contrib\cuda_samples;F:\A_code\oct\OCT\cufinufft\include;F:\A_code\oct\OCT\cufinufft\source;F:\A_code\oct\OCT\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Release\qt\uic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\A_code\oct\OCT\.;F:\A_code\oct\OCT\cufinufft\contrib;F:\A_code\oct\OCT\cufinufft\contrib\cuda_samples;F:\A_code\oct\OCT\cufinufft\include;F:\A_code\oct\OCT\cufinufft\source;F:\A_code\oct\OCT\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Debug\qt\uic;F:\A_code\oct\OCT\x64\Release\qt\uic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/A_code/oct/OCT/cmake-build-debug-visual-studio/RelWithDebInfo/OCT.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/A_code/oct/OCT/cmake-build-debug-visual-studio/RelWithDebInfo/OCT.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\A_code\oct\OCT\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/A_code/oct/OCT/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"F:\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" -SF:/A_code/oct/OCT -BF:/A_code/oct/OCT/cmake-build-debug-visual-studio --check-stamp-file F:/A_code/oct/OCT/cmake-build-debug-visual-studio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\A_code\oct\OCT\cmake-build-debug-visual-studio\CMakeFiles\3.29.6\CMakeCCompiler.cmake;F:\A_code\oct\OCT\cmake-build-debug-visual-studio\CMakeFiles\3.29.6\CMakeCXXCompiler.cmake;F:\A_code\oct\OCT\cmake-build-debug-visual-studio\CMakeFiles\3.29.6\CMakeRCCompiler.cmake;F:\A_code\oct\OCT\cmake-build-debug-visual-studio\CMakeFiles\3.29.6\CMakeSystem.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCCompiler.cmake.in;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCCompilerABI.c;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCInformation.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCXXCompiler.cmake.in;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCXXCompilerABI.cpp;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCompilerIdDetection.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCXXCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCompileFeatures.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCompilerABI.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCompilerId.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineRCCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineSystem.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeFindBinUtils.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeParseImplicitIncludeInfo.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeParseImplicitLinkInfo.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeParseLibraryArchitecture.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeRCCompiler.cmake.in;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeRCInformation.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeSystem.cmake.in;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeTestCCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeTestCXXCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeTestCompilerCommon.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeTestRCCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\ADSP-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\ARMCC-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\ARMClang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\AppleClang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Borland-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Cray-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\CrayClang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\GHS-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\GNU-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\HP-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IAR-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Intel-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\LCC-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\NVHPC-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\OrangeC-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\PGI-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\PathScale-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\SCO-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\TI-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\TIClang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Tasking-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Watcom-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\XL-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\zOS-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CompilerId\VS-10.vcxproj.in;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Internal\CMakeDetermineLinkerId.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Internal\FeatureTesting.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-Determine-CXX.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\A_code\oct\OCT\cmake-build-debug-visual-studio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/A_code/oct/OCT/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"F:\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" -SF:/A_code/oct/OCT -BF:/A_code/oct/OCT/cmake-build-debug-visual-studio --check-stamp-file F:/A_code/oct/OCT/cmake-build-debug-visual-studio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\A_code\oct\OCT\cmake-build-debug-visual-studio\CMakeFiles\3.29.6\CMakeCCompiler.cmake;F:\A_code\oct\OCT\cmake-build-debug-visual-studio\CMakeFiles\3.29.6\CMakeCXXCompiler.cmake;F:\A_code\oct\OCT\cmake-build-debug-visual-studio\CMakeFiles\3.29.6\CMakeRCCompiler.cmake;F:\A_code\oct\OCT\cmake-build-debug-visual-studio\CMakeFiles\3.29.6\CMakeSystem.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCCompiler.cmake.in;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCCompilerABI.c;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCInformation.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCXXCompiler.cmake.in;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCXXCompilerABI.cpp;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCompilerIdDetection.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCXXCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCompileFeatures.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCompilerABI.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCompilerId.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineRCCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineSystem.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeFindBinUtils.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeParseImplicitIncludeInfo.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeParseImplicitLinkInfo.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeParseLibraryArchitecture.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeRCCompiler.cmake.in;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeRCInformation.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeSystem.cmake.in;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeTestCCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeTestCXXCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeTestCompilerCommon.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeTestRCCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\ADSP-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\ARMCC-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\ARMClang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\AppleClang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Borland-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Cray-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\CrayClang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\GHS-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\GNU-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\HP-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IAR-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Intel-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\LCC-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\NVHPC-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\OrangeC-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\PGI-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\PathScale-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\SCO-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\TI-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\TIClang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Tasking-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Watcom-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\XL-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\zOS-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CompilerId\VS-10.vcxproj.in;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Internal\CMakeDetermineLinkerId.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Internal\FeatureTesting.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-Determine-CXX.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\A_code\oct\OCT\cmake-build-debug-visual-studio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/A_code/oct/OCT/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"F:\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" -SF:/A_code/oct/OCT -BF:/A_code/oct/OCT/cmake-build-debug-visual-studio --check-stamp-file F:/A_code/oct/OCT/cmake-build-debug-visual-studio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\A_code\oct\OCT\cmake-build-debug-visual-studio\CMakeFiles\3.29.6\CMakeCCompiler.cmake;F:\A_code\oct\OCT\cmake-build-debug-visual-studio\CMakeFiles\3.29.6\CMakeCXXCompiler.cmake;F:\A_code\oct\OCT\cmake-build-debug-visual-studio\CMakeFiles\3.29.6\CMakeRCCompiler.cmake;F:\A_code\oct\OCT\cmake-build-debug-visual-studio\CMakeFiles\3.29.6\CMakeSystem.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCCompiler.cmake.in;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCCompilerABI.c;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCInformation.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCXXCompiler.cmake.in;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCXXCompilerABI.cpp;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCompilerIdDetection.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCXXCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCompileFeatures.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCompilerABI.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCompilerId.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineRCCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineSystem.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeFindBinUtils.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeParseImplicitIncludeInfo.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeParseImplicitLinkInfo.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeParseLibraryArchitecture.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeRCCompiler.cmake.in;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeRCInformation.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeSystem.cmake.in;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeTestCCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeTestCXXCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeTestCompilerCommon.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeTestRCCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\ADSP-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\ARMCC-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\ARMClang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\AppleClang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Borland-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Cray-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\CrayClang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\GHS-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\GNU-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\HP-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IAR-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Intel-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\LCC-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\NVHPC-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\OrangeC-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\PGI-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\PathScale-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\SCO-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\TI-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\TIClang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Tasking-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Watcom-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\XL-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\zOS-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CompilerId\VS-10.vcxproj.in;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Internal\CMakeDetermineLinkerId.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Internal\FeatureTesting.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-Determine-CXX.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\A_code\oct\OCT\cmake-build-debug-visual-studio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/A_code/oct/OCT/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"F:\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" -SF:/A_code/oct/OCT -BF:/A_code/oct/OCT/cmake-build-debug-visual-studio --check-stamp-file F:/A_code/oct/OCT/cmake-build-debug-visual-studio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\A_code\oct\OCT\cmake-build-debug-visual-studio\CMakeFiles\3.29.6\CMakeCCompiler.cmake;F:\A_code\oct\OCT\cmake-build-debug-visual-studio\CMakeFiles\3.29.6\CMakeCXXCompiler.cmake;F:\A_code\oct\OCT\cmake-build-debug-visual-studio\CMakeFiles\3.29.6\CMakeRCCompiler.cmake;F:\A_code\oct\OCT\cmake-build-debug-visual-studio\CMakeFiles\3.29.6\CMakeSystem.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCCompiler.cmake.in;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCCompilerABI.c;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCInformation.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCXXCompiler.cmake.in;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCXXCompilerABI.cpp;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeCompilerIdDetection.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCXXCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCompileFeatures.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCompilerABI.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineCompilerId.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineRCCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeDetermineSystem.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeFindBinUtils.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeParseImplicitIncludeInfo.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeParseImplicitLinkInfo.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeParseLibraryArchitecture.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeRCCompiler.cmake.in;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeRCInformation.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeSystem.cmake.in;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeTestCCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeTestCXXCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeTestCompilerCommon.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CMakeTestRCCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\ADSP-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\ARMCC-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\ARMClang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\AppleClang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Borland-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Cray-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\CrayClang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\GHS-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\GNU-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\HP-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IAR-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Intel-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\LCC-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\MSVC.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\NVHPC-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\OrangeC-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\PGI-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\PathScale-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\SCO-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\TI-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\TIClang-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Tasking-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\Watcom-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\XL-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\zOS-C-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\CompilerId\VS-10.vcxproj.in;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Internal\CMakeDetermineLinkerId.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Internal\FeatureTesting.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-Determine-CXX.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\Windows.cmake;F:\CLion 2024.2.3\bin\cmake\win\x64\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\A_code\oct\OCT\cmake-build-debug-visual-studio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\contrib\cuda_samples\helper_cuda.h" />
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\contrib\cuda_samples\helper_string.h" />
+    <ClCompile Include="F:\A_code\oct\OCT\cufinufft\contrib\common.cpp" />
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\contrib\common.h" />
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\contrib\dataTypes.h" />
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\contrib\dirft.h" />
+    <ClCompile Include="F:\A_code\oct\OCT\cufinufft\contrib\dirft2d.cpp" />
+    <ClCompile Include="F:\A_code\oct\OCT\cufinufft\contrib\ker_horner_allw_loop.c" />
+    <ClCompile Include="F:\A_code\oct\OCT\cufinufft\contrib\ker_lowupsampfac_horner_allw_loop.c" />
+    <ClCompile Include="F:\A_code\oct\OCT\cufinufft\contrib\legendre_rule_fast.c" />
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\contrib\legendre_rule_fast.h" />
+    <ClCompile Include="F:\A_code\oct\OCT\cufinufft\contrib\spreadinterp.cpp" />
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\contrib\spreadinterp.h" />
+    <ClCompile Include="F:\A_code\oct\OCT\cufinufft\contrib\utils.cpp" />
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\contrib\utils.h" />
+    <ClCompile Include="F:\A_code\oct\OCT\cufinufft\contrib\utils_fp.cpp" />
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\contrib\utils_fp.h" />
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\include\cufinufft.h" />
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\include\cufinufft_eitherprec.h" />
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\include\cufinufft_errors.h" />
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\include\cufinufft_opts.h" />
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\include\profile.h" />
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\include\utils.h" />
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\1d\cufinufft1d.cu">
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\1d\interp1d_wrapper.cu">
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\1d\spread1d_wrapper.cu">
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\1d\spreadinterp1d.cu">
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\2d\cufinufft2d.cu">
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\2d\interp2d_wrapper.cu">
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\2d\spread2d_wrapper.cu">
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\2d\spread2d_wrapper_paul.cu">
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\2d\spreadinterp2d.cu">
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\3d\cufinufft3d.cu">
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\3d\interp3d_wrapper.cu">
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\3d\spread3d_wrapper.cu">
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\3d\spreadinterp3d.cu">
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\common.cu">
+    </None>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\source\common.h" />
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\source\cudeconvolve.h" />
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\cufinufft.cu">
+    </None>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\source\cuspreadinterp.h" />
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\deconvolve_wrapper.cu">
+    </None>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\source\memtransfer.h" />
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\memtransfer_wrapper.cu">
+    </None>
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\precision_independent.cu">
+    </None>
+    <ClInclude Include="F:\A_code\oct\OCT\cufinufft\source\precision_independent.h" />
+    <None Include="F:\A_code\oct\OCT\cufinufft\source\profile.cu">
+    </None>
+    <ClCompile Include="F:\A_code\oct\OCT\OCT\x64\Debug\qt\moc\moc_OCTGUI.cpp">
+      <ObjectFileName>$(IntDir)/OCT/x64/Debug/qt/moc/moc_OCTGUI.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\OCT\x64\Debug\qt\rcc\qrc_OCTGUI.cpp">
+      <ObjectFileName>$(IntDir)/OCT/x64/Debug/qt/rcc/qrc_OCTGUI.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="F:\A_code\oct\OCT\OCT\x64\Debug\qt\uic\ui_OCTGUI.h" />
+    <ClCompile Include="F:\A_code\oct\OCT\x64\Debug\qt\moc\moc_controller.cpp">
+      <ObjectFileName>$(IntDir)/x64/Debug/qt/moc/moc_controller.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\x64\Debug\qt\moc\moc_model.cpp">
+      <ObjectFileName>$(IntDir)/x64/Debug/qt/moc/moc_model.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\x64\Debug\qt\moc\moc_OCTGUI.cpp">
+      <ObjectFileName>$(IntDir)/x64/Debug/qt/moc/moc_OCTGUI.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\x64\Debug\qt\rcc\qrc_OCTGUI.cpp">
+      <ObjectFileName>$(IntDir)/x64/Debug/qt/rcc/qrc_OCTGUI.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="F:\A_code\oct\OCT\x64\Debug\qt\uic\ui_OCTGUI.h" />
+    <ClCompile Include="F:\A_code\oct\OCT\x64\Release\qt\moc\moc_controller.cpp">
+      <ObjectFileName>$(IntDir)/x64/Release/qt/moc/moc_controller.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\x64\Release\qt\moc\moc_model.cpp">
+      <ObjectFileName>$(IntDir)/x64/Release/qt/moc/moc_model.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\x64\Release\qt\moc\moc_OCTGUI.cpp">
+      <ObjectFileName>$(IntDir)/x64/Release/qt/moc/moc_OCTGUI.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\A_code\oct\OCT\x64\Release\qt\rcc\qrc_OCTGUI.cpp">
+      <ObjectFileName>$(IntDir)/x64/Release/qt/rcc/qrc_OCTGUI.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="F:\A_code\oct\OCT\x64\Release\qt\uic\ui_OCTGUI.h" />
+    <ClCompile Include="F:\A_code\oct\OCT\controller.cpp" />
+    <ClInclude Include="F:\A_code\oct\OCT\controller.h" />
+    <None Include="F:\A_code\oct\OCT\cuhelper.cu">
+    </None>
+    <None Include="F:\A_code\oct\OCT\cuhelper.cuh">
+    </None>
+    <None Include="F:\A_code\oct\OCT\cukernel.cu">
+    </None>
+    <None Include="F:\A_code\oct\OCT\cukernel.cuh">
+    </None>
+    <None Include="F:\A_code\oct\OCT\cukernel_MB2D.cu">
+    </None>
+    <None Include="F:\A_code\oct\OCT\cukernel_OCTA.cuh">
+    </None>
+    <None Include="F:\A_code\oct\OCT\cvshow.cu">
+    </None>
+    <None Include="F:\A_code\oct\OCT\cvshow.cuh">
+    </None>
+    <ClCompile Include="F:\A_code\oct\OCT\DataProcess.cpp" />
+    <ClCompile Include="F:\A_code\oct\OCT\main.cpp" />
+    <ClCompile Include="F:\A_code\oct\OCT\main2t.cpp" />
+    <ClCompile Include="F:\A_code\oct\OCT\model.cpp" />
+    <ClInclude Include="F:\A_code\oct\OCT\model.h" />
+    <ClCompile Include="F:\A_code\oct\OCT\OCTGUI.cpp" />
+    <ClInclude Include="F:\A_code\oct\OCT\OCTGUI.h" />
+    <ClCompile Include="F:\A_code\oct\OCT\save_function.cpp" />
+    <ClInclude Include="F:\A_code\oct\OCT\save_function.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\A_code\oct\OCT\cmake-build-debug-visual-studio\ZERO_CHECK.vcxproj">
+      <Project>{249EFC7C-3A27-37F3-8F30-BC9B1F173310}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

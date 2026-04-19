@@ -1,0 +1,3 @@
+F:/A_code/oct/OCT/cmake-build-debug-qt/CMakeFiles/OCT.dir
+F:/A_code/oct/OCT/cmake-build-debug-qt/CMakeFiles/edit_cache.dir
+F:/A_code/oct/OCT/cmake-build-debug-qt/CMakeFiles/rebuild_cache.dir

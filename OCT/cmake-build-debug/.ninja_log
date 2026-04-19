@@ -1,0 +1,7 @@
+# ninja log v6
+20	337	7832806601830785	CMakeFiles/OCT.dir/cufinufft/contrib/ker_lowupsampfac_horner_allw_loop.c.obj	53afbb86f36feef1
+15	357	7832806601780780	CMakeFiles/OCT.dir/cufinufft/contrib/ker_horner_allw_loop.c.obj	c12a2dcc26d53380
+57	406	7832806602210877	CMakeFiles/OCT.dir/OCT/x64/Debug/qt/rcc/qrc_OCTGUI.cpp.obj	a4537339a87e82d8
+84	407	7832806602470928	CMakeFiles/OCT.dir/x64/Debug/qt/rcc/qrc_OCTGUI.cpp.obj	f8005433f438625
+26	447	7832806601890815	CMakeFiles/OCT.dir/cufinufft/contrib/legendre_rule_fast.c.obj	dc3b868dd5383cc9
+76	354	7832806675532913	CMakeFiles/OCT.dir/x64/Release/qt/rcc/qrc_OCTGUI.cpp.obj	a25609c1500c847b
